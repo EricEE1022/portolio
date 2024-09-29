@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../assets/homelogo.svg';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,11 @@ const NavBar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-[#212020] py-4 px-10 flex justify-between items-center z-50 backdrop-blur-md">
-      <div className="text-white text-2xl font-bold">My Portfolio</div>
+      <div className="text-white text-2xl font-bold">
+        <a href="/">
+          <img src={logo} alt="" className='w-12' />
+        </a>
+      </div>
 
       <div className="block md:hidden">
         <button onClick={toggleMenu} className="focus:outline-none">
