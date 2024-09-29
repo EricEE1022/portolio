@@ -12,7 +12,7 @@ const Home = () => {
         {/* Left Section - Text Introduction */}
         <div className="text-left">
           {/* Introduction label */}
-          <p className="text-[#987750] text-lg leading-4 pb-10 uppercase tracking-widest">Introduction</p>
+          <p className="text-[#987750] text-lg leading-4 pb-10 uppercase tracking-widest">Introdution</p>
 
           {/* Main Title - Role and Specialization */}
           <h1 className="text-5xl font-normal text-[#ddd] mt-4 mb-10">Frontend Developer, UI/UX Designer</h1>
