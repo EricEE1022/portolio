@@ -1,8 +1,12 @@
+// Student Name: Ebibulukemi Emiowei (Eric)
+// Student ID: 301367312
+// Date: 09/29/2024
+
 import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#1d1b19] text-white flex flex-col justify-center items-center font-jost p-8">
+    <header className="min-h-screen bg-[#1d1b19] text-white flex flex-col justify-center items-center font-jost p-8">
       {/* Container that limits the width of the content and ensures proper spacing between sections */}
       <div className="max-w-6xl w-full mx-auto space-y-8 pt-32">
         {/* Section for the page heading */}
@@ -111,7 +115,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -1,3 +1,7 @@
+// Student Name: Ebibulukemi Emiowei (Eric)
+// Student ID: 301367312
+// Date: 09/29/2024
+
 import React from "react";
 import kudibar from '../assets/kudibar.png';
 import yebox from '../assets/yebox.png';
@@ -8,7 +12,7 @@ import cway from '../assets/cway.png';
 
 const Projects = () => {
   return (
-    <div className="min-h-screen bg-[#1d1b19] text-white flex flex-col justify-center items-center font-jost p-8">
+    <header className="min-h-screen bg-[#1d1b19] text-white flex flex-col justify-center items-center font-jost p-8">
       <div className="max-w-6xl w-full mx-auto space-y-8 pt-32">
         {/* Page Header */}
         <div className="text-left">
@@ -110,7 +114,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

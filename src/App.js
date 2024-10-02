@@ -1,3 +1,7 @@
+// Student Name: Ebibulukemi Emiowei (Eric)
+// Student ID: 301367312
+// Date: 09/29/2024
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';

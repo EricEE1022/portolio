@@ -1,3 +1,7 @@
+// Student Name: Ebibulukemi Emiowei (Eric)
+// Student ID: 301367312
+// Date: 09/29/2024
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -28,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#1d1b19] text-white flex items-center justify-center pb-4 pt-24">
+    <header className="min-h-screen bg-[#1d1b19] text-white flex items-center justify-center pb-4 pt-24">
       <div className="max-w-lg w-full bg-[#212020] p-6 rounded-lg shadow-lg">
         <div className="text-left">
           <p className="text-[#987750] text-lg leading-4 pb-5 uppercase tracking-widest">
@@ -115,7 +119,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </div>
+    </header>
   );
 };
 

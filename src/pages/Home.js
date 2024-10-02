@@ -1,10 +1,14 @@
+// Student Name: Ebibulukemi Emiowei (Eric)
+// Student ID: 301367312
+// Date: 09/29/2024
+
 import React from 'react';
 import signature from '../assets/mysignature.svg'; 
 import profilePic from '../assets/profile.jpeg';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-[#1d1b19] text-white flex justify-center items-center p-8 font-jost">
+    <header className="min-h-screen bg-[#1d1b19] text-white flex justify-center items-center p-8 font-jost">
       
       {/* A container that manages the max-width and flex layout of the content */}
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center space-y-12 md:space-y-0 md:space-x-16 pt-32">
@@ -51,7 +55,7 @@ const Home = () => {
         </div>
 
       </div>
-    </div>
+    </header>
   );
 };
 
