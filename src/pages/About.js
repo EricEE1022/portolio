@@ -19,11 +19,11 @@ const About = () => {
 
         {/* Biography paragraph explaining the user's professional profile */}
         <p className="text-[#888] text-[30px] leading-10 mb-6">
-          I'm an energetic and imaginative software engineer, UI/UX designer,
-          and quality assurance software analyst (Figma) specializing in ReactJs
-          and VueJs frontend development, who can work alongside other talented
-          IT professionals in creating web applications to the very highest
-          standards.
+          I'm an energetic and imaginative software engineer specializing in
+          ReactJs and VueJs frontend development, UI/UX designer(Figma), and
+          quality assurance software analyst, who can work alongside other
+          talented IT professionals in creating web applications to the very
+          highest standards.
         </p>
 
         {/* Grid layout: Information on the left, Download CV button on the right */}
@@ -43,9 +43,7 @@ const About = () => {
                 <span className="text-[#888] tracking-[1px] font-medium md:text-2xl uppercase w-1/3">
                   Address
                 </span>
-                <span className="w-2/3 md:text-2xl">
-                  Toronto, ON
-                </span>
+                <span className="w-2/3 md:text-2xl">Toronto, ON</span>
               </li>
               {/* Phone */}
               <li className="flex">
@@ -63,7 +61,7 @@ const About = () => {
                 </span>
                 <a href="mailto:emiowei.eric@gmail.com">
                   <span className="w-2/3 md:text-2xl">
-                  emiowei.eric@gmail.com
+                    emiowei.eric@gmail.com
                   </span>
                 </a>
               </li>

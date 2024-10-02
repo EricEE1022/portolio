@@ -15,11 +15,11 @@ const Home = () => {
           <p className="text-[#987750] text-lg leading-4 pb-10 uppercase tracking-widest">Introduction</p>
 
           {/* Main Title - Role and Specialization */}
-          <h1 className="text-5xl font-normal text-[#ddd] mt-4 mb-10">Frontend Developer, UI/UX Designer</h1>
+          <h1 className="text-5xl font-normal text-[#ddd] mt-4 mb-10">Software Engineer, UI/UX Designer and Quality Assurance Software Analyst</h1>
 
           {/* Short description about the developer */}
           <p className="text-[#888] text-[30px] leading-10 mb-6">
-            I design and develop services for clients of all sizes, specializing in creating stylish, modern web applications and UI designs.
+            I design, develop and test services for clients of all sizes, specializing in creating stylish, modern web applications and UI designs.
           </p>
 
           {/* Signature Image */}
